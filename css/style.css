@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+/* contactBar */
+
+
+
+#contactBar a{
+    text-decoration: none;
+    
+}
+
+/* Nawigacja */
+/* .navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+} */
+nav {
+    font-size: 2rem;
+    text-transform: uppercase;
+        
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+    
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* Header */
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+.carousel-img-one {
+    background-image: url('../img/naprawa_kuchenki.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('../img/kuchnia_restauracja.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('../img/baner.jpg');
+}
+
+
+/* Home */
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+
+/* home passion */
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url('../img/naprawa_kuchenki.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.aboutus-hero {
+    background-image: url('../img/about/about-hero.jpg');
+    background-position: bottom;
+}
+
+/* -------------- */
+
+.aboutus-top .display-3 {
+    text-transform: uppercase;
+}
+
+/* -------------- */
+
+.aboutus-info {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+    padding: 2em .5em;
+}
+
+.aboutus-text {
+    padding: 1.8em;
+}
+
+.aboutus-text h3 {
+    margin-bottom: .5em;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #007BFF;
+}
+
+.aboutus-text-right {
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    background-image: url('../img/naprawa_kuchenki.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------- */
+.clients{
+    height: 300px;
+    background-image: url('../img/shake_hands.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+/* HomDdescription */
+.homeDescription img{
+    height: 250px;
+}
+.homeDescription h3{
+    font-size: 2.4rem;
+}
+
+/* contact us */
+.contactUs iframe{
+    width: 50vw;
+}
+
+.contactUs i{
+    padding-left: 150px;
+    font-size: 5.0rem;
+}
+
+.contactUs h2{
+    font-size: 3.0rem;
+}
+
+.cracow{
+    font-size: 2.5rem;
+}
+
+/* o nas */
+.abuoutus{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.img-aboutus{
+    height: 400px;
+    background-image: url('../img/piec.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* uslugi */
+.cardTitle:hover{
+    
+    transform: scale(1.3);
+    color: blue;
+}
+.service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+    background-image: url('../img/dojazd.jpg');
+}
+.service-pricing .box-two {
+    background-image: url('../img/montaz.jpg');
+}
+.service-pricing .box-three {
+    background-image: url('../img/service.jpg');
+}
+.service-pricing .box-four {
+    background-image: url('../img/projekty.jpg');
+}
+
+.service-pricing .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* galeria */
+.subject{
+    margin-top: 10%;
+    
+}
+.galleryPhotoOne{
+    margin:0;
+    height: 300px;
+    background-image: url('../img/projekty.jpg');
+    background-size: cover;
+}
+.galleryPhotoTwo{
+    height: 300px;
+    background-image: url('../img/service.jpg');
+    background-size: cover;
+}
+.galleryPhotoThree{
+    height: 300px;
+    background-image: url('../img/montaz.jpg');
+    background-size: cover;
+}
+
+.gallery-image:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+/* kontakt */
+.formText{
+    font-size: 1.6rem;
+}
+.btn{
+    font-size: 1.6rem;
+}
+
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+    }
+}

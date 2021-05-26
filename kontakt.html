@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GastroCar</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e629d444e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="contactBar">
+        <div class="container">
+        <div class="contactInfo m-0">
+            <div class="row p-0  d-flex justify-content-between align-items-between">
+                <div class="col">
+                <p class="m-0 py-2">
+                    <i class="fas fa-phone px-2"></i><a class="px-1 text-dark" href="tel:+48-666-666-666"></a>+48 666
+                    666 666
+                    <i class="fas fa-at px-2"></i><a class="px-1 text-dark"
+                        href="mailto:biuro@gastrocar.pl">biuro@gastrocar.pl</a>
+                </p>
+            </div>
+            
+            </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars px-4"></i>
+            </button>
+           
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto text-dark">
+                        <a class="nav-item nav-link" href="index.html">Strona główna<span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="o_nas.html">O Nas</a>
+                        <a class="nav-item nav-link" href="uslugi.html">Usługi</a>
+                        <a class="nav-item nav-link" href="galeria.html">Galeria</a>
+                        <a class="nav-item nav-link active" href="kontakt.html">Kontakt<span
+                            class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <div class="text-center">
+                    <p class="display-3 subject">Skontaktuj się z nami</p>
+                    <hr>
+                </div>
+                <form>
+                    
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control formText" id="exampleFormControlInput1" placeholder="Adres email" required >
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label" >Wiadomość</label>
+                        <textarea class="form-control formText" id="exampleFormControlTextarea1" rows="6" placeholder="Treść wiadomości"></textarea>
+                      </div>
+                      
+                     
+                      
+                      <div class="rodo text-center">
+                        
+                        <input type="checkbox" onclick="this.form.elements['sendButton'].disabled = !this.checked">
+                        <p>Wyrażam zgodę na przetwarzanie danych osobowych zgodnie z ustawą o ochronie danych osobowych w związku z wysłaniem zapytania przez formularz kontaktowy. Podanie danych jest dobrowolne, ale niezbędne do przetworzenia zapytania. Zostałem poinformowany, że przysługuje mi prawo dostępu do swoich danych. Możliwości ich poprawienia, żądania zaprzestania ich przetwarzania. Administratorem danych jest firma Gastro-Trade, Aleja Sosnowa 11, 30-224 Kraków</p>
+                    </div>
+                    
+                      <button type="submit" class="btn btn-outline-secondary p-3" name="sendButton" value="submit" disabled>Wyślij</button>
+                    
+                  </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactUs bg-light">
+            <div class="containernn my-4">
+                <div class="text-center py-4">
+                    <p class="display-3">Nasze lokalizacje</p>
+                    <hr>
+                </div>
+                <div class="row align-items-center mt-4">
+
+                    <div class="col-md-6 text-center">
+                        <div class="row pb-4 mb-4">
+
+                            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="cracow">
+
+                                    <p>ul. Pasternik 100</p>
+                                    <p>Kraków 31-354</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.40823535097!2d19.868265815064994!3d50.09736537942825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165984e36c6237%3A0x83d19f9bcbebc313!2sPasternik%20100%2C%2031-354%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1607554547562!5m2!1spl!2spl" height="450"></iframe>
+                       
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="row pb-4 mb-4">
+
+                            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="cracow">
+
+                                    <p>ul. Kubiny 12</p>
+                                    <p>Ruda Śląska (Wirek) 41-710</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.9925785383725!2d18.858700015073747!3d50.27339717945128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716cd2dc04314fb%3A0x45c15f90f58d8a60!2zUGF3xYJhIEt1YmlueSAxMiwgNDEtNzEwIFJ1ZGEgxZpsxIVza2E!5e0!3m2!1spl!2spl!4v1607554652761!5m2!1spl!2spl"  height="450" ></iframe>
+                        
+                        
+                    </div>
+                </div>
+        </section>
+
+
+    </main>
+    <footer class="text-dark">
+        <p class="py-5 px-3 mb-0 text-center">2020 &copy; Copyright GastroCar</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
